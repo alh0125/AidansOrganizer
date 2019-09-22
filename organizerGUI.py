@@ -6,7 +6,6 @@ import calendar
 from datetime import datetime
 
 
-
 class Organizer(tk.Tk):
 
     def __init__(self, *args, **kwargs):
@@ -217,8 +216,6 @@ class Alpage(tk.Frame):
         addbutton.grid(row=2, column=0)
         revbutton = ttk.Button(self, text="Remove", command=lambda: controller.rev_button(page, texr))
         revbutton.grid(row=3, column=0)
-
-
 
 
 app = Organizer()
